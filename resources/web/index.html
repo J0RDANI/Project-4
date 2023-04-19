@@ -6,35 +6,66 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Resource 1 | My Website</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../static/style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="">Jordani</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://j0rdani.github.io/Project-4/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://j0rdani.github.io/Project-4/about">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="https://j0rdani.github.io/Project-4/resources/" id="resourcesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="resourcesDropdown">
+                        <li><a class="dropdown-item" href="https://j0rdani.github.io/Project-4/resources/web/">Web</a></li>
+                        <li><a class="dropdown-item" href="https://j0rdani.github.io/Project-4/resources/windows/">Windows</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://j0rdani.github.io/Project-4/contact/">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
   <div class="container my-5">
-    <h1 class="text-center mb-4">Resource 1</h1>
+    <h1 class="text-center mb-4">Web Hacking</h1>
     <div class="row">
       <div class="col-md-6 mb-3">
-        <img src="https://placehold.it/600x400" alt="Resource 1" class="img-fluid">
+        <img src="../../static/web.png" class="card-img-fluid" alt="Windows Logo">
       </div>
       <div class="col-md-6 mb-3">
         <h2>Description</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tincidunt euismod felis, nec gravida est vehicula et. Nullam feugiat turpis quis sapien faucibus, id fringilla magna commodo. Sed sit amet nisi ut enim scelerisque sagittis ut id velit. Sed sit amet ex nisl. Ut eget orci ultricies, hendrerit felis in, finibus nunc.</p>
-        <h2>Features</h2>
+        <p>Web hacking is the practice of exploiting vulnerabilities in web applications to gain unauthorized access, steal data, or cause other malicious activities. Understanding the basics of web hacking can help organizations better protect their web applications and prevent attacks.</p>
+        <h2>Tutorials and Guides</h2>
         <ul>
-          <li>Feature 1</li>
-          <li>Feature 2</li>
-          <li>Feature 3</li>
+          <li><a href="https://owasp.org/Top10/">OWASP Top Ten</a></li>
+          <li><a href="https://www.wiley.com/en-us/The+Web+Application+Hacker's+Handbook%3A+Discovering+and+Exploiting+Security+Flaws%2C+2nd+Edition-p-9781118026472">Web Application Hacker's Handbook</a></li>
+          <li><a href="https://pentesterlab.com/">PentesterLab</a></li>
         </ul>
-        <h2>Benefits</h2>
+        <h2>Tools and Utilities</h2>
         <ul>
-          <li>Benefit 1</li>
-          <li>Benefit 2</li>
-          <li>Benefit 3</li>
+          <li><a href="https://portswigger.net/burp">BurpSuite</a></li>
+          <li><a href="https://www.zaproxy.org/">OWASP ZAP</a></li>
+          <li><a href="https://docs.microsoft.com/en-us/azure/web-application-firewall/ag/ag-overview">Microsoft's WAF</a></li>
         </ul>
       </div>
     </div>
   </div>
-  <footer class="bg-light py-3">
+  <footer class="bg-dark py-3">
     <div class="container text-center">
-        <p>&copy; 2023 Bootstrap Page. All Rights Reserved.</p>
+        <p>&copy; 2023 Jordani. All Rights Reserved.</p>
     </div>
 </footer>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js"></script>
